@@ -19,8 +19,8 @@ export const smsService = {
         body: JSON.stringify({
           to: phone,
           message: message,
-          sender_name: 'Polytechnic',
-          route: 'non_dnd'
+          sender_name: 'Schamp',
+          route: 'dnd'
         }),
       });
 
