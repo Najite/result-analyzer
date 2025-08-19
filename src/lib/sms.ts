@@ -26,7 +26,7 @@ export const smsService = {
       const requestBody = {
         to: [formattedPhone], // SendChamp expects an array
         message: message,
-        sender_name: 'Schamp', // Make sure this sender name is approved
+        sender_name: 'SC-OTP', // Make sure this sender name is approved
         route: 'dnd'
       };
 
