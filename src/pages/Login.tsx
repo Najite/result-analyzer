@@ -92,11 +92,11 @@ const Login: React.FC = () => {
             </div>
           </form>
           <div className="mt-6 border-t border-gray-200 pt-6">
-            <div className="text-sm text-gray-600">
+{/*             <div className="text-sm text-gray-600">
               <p className="font-medium">Demo Accounts:</p>
               <p>Admin: admin@polytechnic.edu / admin123</p>
               <p>Student: john.doe@student.edu / student123</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
